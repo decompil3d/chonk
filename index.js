@@ -42,7 +42,7 @@ if (!argv._ || argv._.length < 1) {
   process.exit(1);
 }
 
-async.each(argv._, (filePath, next) => {
+async.eachSeries(argv._, (filePath, next) => {
   fs.stat(filePath, (statErr, stats) => {
     if (statErr) return next(statErr);
 
