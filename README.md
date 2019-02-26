@@ -36,3 +36,11 @@ Options:
                                                        [number] [default: "500"]
   --chonk, -c  Minimum size in kilobytes for It chonk   [number] [default: "50"]
 ```
+
+### Sample
+
+```sh-session
+$ chonk lawd.dmg mega.zip hefty.tar.gz heckin.jpg chonk.pdf fine.txt
+```
+
+![sample output](chonk.png)
