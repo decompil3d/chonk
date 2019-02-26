@@ -1,0 +1,38 @@
+{
+  "name": "chonk",
+  "version": "1.0.0",
+  "description": "Check the size of a file and determine its chonkiness",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "chonk": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decompil3d/chonk.git"
+  },
+  "keywords": [
+    "file",
+    "size",
+    "chonkiness",
+    "chonk",
+    "snark"
+  ],
+  "author": "Jonathan Keslin <github@jonathankeslin.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decompil3d/chonk/issues"
+  },
+  "homepage": "https://github.com/decompil3d/chonk#readme",
+  "dependencies": {
+    "async": "^2.6.2",
+    "chalk": "^2.4.2",
+    "pretty-bytes": "^5.1.0",
+    "yargs": "^13.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^11.9.5"
+  }
+}
