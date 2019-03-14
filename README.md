@@ -1,5 +1,7 @@
 # `chonk`
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/decompil3d/chonk.svg)](https://greenkeeper.io/)
+
 Check the size of a file and determine its chonkiness
 
 Inspired by <https://knowyourmeme.com/memes/chonk-oh-lawd-he-comin>
