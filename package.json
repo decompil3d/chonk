@@ -6,7 +6,9 @@
   "scripts": {
     "test:unit": "mocha test/unit/*.test.js",
     "test:integration": "mocha test/integration/*.test.js",
-    "test": "nyc npm-run-all test:unit test:integration"
+    "test": "nyc npm-run-all test:unit test:integration",
+    "lint": "eslint-godaddy *.js **/*.js",
+    "posttest": "npm run lint"
   },
   "bin": {
     "chonk": "./index.js"

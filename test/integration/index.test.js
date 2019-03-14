@@ -6,7 +6,7 @@ const concat = require('concat-stream');
 
 describe('chonk', function () {
   function verifyStd(whichStd, expected) {
-    return function(std) {
+    return function (std) {
       if (expected) {
         if (Array.isArray(expected)) {
           let lastFound = -1;
@@ -20,11 +20,11 @@ describe('chonk', function () {
           assume(std).includes(expected);
         }
       }
-    }
+    };
   }
 
   function assumeOutput(expectedOut, expectedErr, expectedExitCode, ...args) {
-    return function(done) {
+    return function (done) {
       const proc = spawn(path.join(__dirname, '../../index.js'), args);
       const stdoutVerifier = concat({
         encoding: 'string'
