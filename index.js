@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint no-console:0, no-process-exit:0 */
 
 const async = require('async');
 const chalk = require('chalk');
@@ -8,7 +9,7 @@ const argv = require('yargs')
   .option('lawd', {
     alias: 'L',
     default: '50000',
-    describe: 'Minimum size in kilobytes for OH LAWD, OT COMIN\'!',
+    describe: 'Minimum size in kilobytes for OH LAWD, IT COMIN\'!',
     type: 'number'
   })
   .option('mega', {
@@ -55,7 +56,6 @@ async.eachSeries(argv._, (filePath, next) => {
   if (err) {
     console.error(chalk.red('Error:'), err.message);
     process.exit(1);
-    return;
   }
 });
 
@@ -102,3 +102,8 @@ function getChonkiness(size) {
     text: 'A fine file'
   };
 }
+
+// Exports for testing
+module.exports = {
+  getChonkiness
+};
