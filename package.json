@@ -38,7 +38,7 @@
   },
   "devDependencies": {
     "@types/node": "^11.9.5",
-    "@types/yargs": "^12.0.9",
+    "@types/yargs": "^13.0.0",
     "assume": "^2.1.0",
     "concat-stream": "^2.0.0",
     "eslint": "^5.15.1",
