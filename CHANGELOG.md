@@ -1,5 +1,9 @@
 # `chonk`
 
+## 1.0.3
+
+- Update more dependencies
+
 ## 1.0.2
 
 - Update dependencies
