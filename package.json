@@ -37,7 +37,7 @@
     "yargs": "^15.0.1"
   },
   "devDependencies": {
-    "@types/node": "^13.1.0",
+    "@types/node": "^14.0.0",
     "@types/yargs": "^15.0.0",
     "assume": "^2.2.0",
     "concat-stream": "^2.0.0",
