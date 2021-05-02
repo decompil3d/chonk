@@ -34,7 +34,7 @@
     "async": "^3.2.0",
     "chalk": "^4.0.0",
     "pretty-bytes": "^5.2.0",
-    "yargs": "^16.0.0"
+    "yargs": "^17.0.0"
   },
   "devDependencies": {
     "@types/node": "^13.1.0",
