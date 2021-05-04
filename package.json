@@ -1,6 +1,6 @@
 {
   "name": "chonk",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Check the size of a file and determine its chonkiness",
   "main": "index.js",
   "scripts": {
