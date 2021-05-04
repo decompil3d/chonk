@@ -1,5 +1,10 @@
 # `chonk`
 
+## 2.0.0
+
+- Drop Node.js 10 support
+- Update deps
+
 ## 1.0.4
 
 - Update dependencies

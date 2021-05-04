@@ -44,6 +44,7 @@ if (!argv._ || argv._.length < 1) {
 }
 
 async.eachSeries(argv._, (filePath, next) => {
+  if (typeof filePath !== 'string') return next(new Error('invalid file path'));
   fs.stat(filePath, (statErr, stats) => {
     if (statErr) return next(statErr);
 
